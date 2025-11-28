@@ -1,0 +1,16 @@
+{
+  "name": "briantech-vercel-whatsapp-bot",
+  "version": "0.1.0",
+  "description": "Stateless WhatsApp Cloud API webhook bot (Vercel-ready) — BRIAN-XMD",
+  "main": "api/webhook.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node api/webhook.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "google-tts-api": "^2.0.1"
+  }
+}
